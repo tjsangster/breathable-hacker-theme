@@ -1,3 +1,4 @@
-hacker theme for brackets :D
+## Hacker theme for brackets :D
+An easier to read hacker theme. 
 
-ScreenShot <br />[Hacker Theme](https://raw.githubusercontent.com/GhostThrone/hacker-theme-brackets/master/hacker-theme-screenshot.jpg)
+Work in progress...
