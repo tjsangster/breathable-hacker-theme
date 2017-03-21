@@ -1,13 +1,13 @@
 {
-    "name": "hacker-theme-v2",
-    "title": "Hacker Theme V2",
-    "description": "Hacker Theme for Brackets",
-    "version": "1.0.3",
-    "author": "Gabriel",
-    "homepage": "https://github.com/GhostThrone/hacker-theme-brackets",
+    "name": "readable-hacker-theme",
+    "title": "Readable Hacker Theme",
+    "description": "A Readable hacker Theme for Brackets",
+    "version": "1.0.0",
+    "author": "TjSangster",
+    "homepage": "https://github.com/tjsangster/readable-hacker-theme-brackets",
     "repository": {
         "type": "git",
-        "url": "https://github.com/GhostThrone/hacker-theme-brackets"
+        "url": "https://github.com/tjsangster/readable-hacker-theme-brackets"
     },
     "keywords": [
         "dark",
@@ -20,3 +20,4 @@
         "addModeClass": true
     }
 }
+
