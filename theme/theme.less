@@ -40,7 +40,7 @@
     }
     
     .cm-bracket, .cm-variable, .cm-attribute, .cm-operator{
-        color: @fgColor !important;
+        color: @fgColor;
     }
     
     .cm-string, .cm-string-2, .cm-hr {
@@ -55,7 +55,7 @@
     .CodeMirror-selected {
         padding-left: 1px;
         padding-right: 1px;
-	background-color: #ffffff;
+	    background-color: #ffffff;
 	}
     
     .cm-keyword, .cm-def, .cm-number{
@@ -81,7 +81,8 @@
     
     .cm-m-css.cm-property {
 		color: #04B404;
-        border-bottom: 1px dotted @fgColor;
+        border-bottom: 1px @fgColor;
+        border-bottom-style: double;
     }
     
 	.cm-m-css.cm-qualifier,
@@ -95,8 +96,12 @@
     }
     
     .cm-m-xml.cm-tag {
-		color: #21610B;
-    } 
+		color: #9FF781;
+    }
+    
+    .cm-m-xml.cm-attribute {
+        color: darken(@fgColor, 9%);
+    }
     
     //script
     .cm-m-javascript.cm-operator {
@@ -118,7 +123,7 @@
     }
     
     //search
-    .CodeMirror-searching{
+    .CodeMirror-searching {
 		color: #000 !important;
 	}
 
